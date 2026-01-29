@@ -50,6 +50,9 @@
 "settings.general.history" = "Geçmiş";
 "settings.general.keepHistory" = "Geçmişi sakla";
 "settings.general.items" = "%d öğe";
+"settings.general.panel" = "Panel";
+"settings.general.closeOnFocusLoss" = "Dışarı tıklandığında kapat";
+"settings.general.showCloseButton" = "Kapatma düğmesini göster";
 
 /* Shortcuts Settings */
 "settings.shortcuts.global" = "Genel Kısayollar";

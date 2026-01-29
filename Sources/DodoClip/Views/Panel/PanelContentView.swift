@@ -86,10 +86,29 @@ struct PanelContentView: View {
         return allItems.firstIndex { $0.id == id }
     }
 
+    @ObservedObject private var settingsService = SettingsService.shared
+
     var body: some View {
         VStack(spacing: 0) {
-            // Top bar: Search + Filters
-            topBar
+            // Top bar: Search + Filters + Close button
+            HStack(spacing: 12) {
+                topBar
+
+                // Close button (if enabled in settings)
+                if settingsService.showCloseButton {
+                    Button {
+                        onDismiss?()
+                    } label: {
+                        Image(systemName: "xmark.circle.fill")
+                            .font(.system(size: 20))
+                            .foregroundColor(Theme.Colors.textSecondary.opacity(0.6))
+                    }
+                    .buttonStyle(.plain)
+                    .help("Close panel (Esc)")
+                }
+            }
+            .padding(.horizontal, Theme.Dimensions.panelPadding)
+            .padding(.top, Theme.Dimensions.panelPadding)
 
             if showFilters {
                 FilterChipsRow(selectedTypes: $selectedTypes)
@@ -440,8 +459,6 @@ struct PanelContentView: View {
             .help("Filter by type (⌘F)")
 
         }
-        .padding(.horizontal, Theme.Dimensions.panelPadding)
-        .padding(.top, Theme.Dimensions.panelPadding)
     }
 
     // MARK: - Cards Scroll View

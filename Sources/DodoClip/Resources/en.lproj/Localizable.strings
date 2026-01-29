@@ -50,6 +50,9 @@
 "settings.general.history" = "History";
 "settings.general.keepHistory" = "Keep history for";
 "settings.general.items" = "%d items";
+"settings.general.panel" = "Panel";
+"settings.general.closeOnFocusLoss" = "Close when clicking outside";
+"settings.general.showCloseButton" = "Show close button";
 
 /* Shortcuts Settings */
 "settings.shortcuts.global" = "Global Shortcuts";

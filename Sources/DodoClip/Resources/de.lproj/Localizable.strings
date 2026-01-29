@@ -50,6 +50,9 @@
 "settings.general.history" = "Verlauf";
 "settings.general.keepHistory" = "Verlauf behalten für";
 "settings.general.items" = "%d Einträge";
+"settings.general.panel" = "Panel";
+"settings.general.closeOnFocusLoss" = "Schließen beim Klicken außerhalb";
+"settings.general.showCloseButton" = "Schließen-Schaltfläche anzeigen";
 
 /* Shortcuts Settings */
 "settings.shortcuts.global" = "Globale Kurzbefehle";

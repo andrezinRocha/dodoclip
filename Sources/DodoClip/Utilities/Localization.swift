@@ -94,6 +94,9 @@ extension L10n {
             static func items(_ count: Int) -> String {
                 String(format: L10n.tr("settings.general.items"), count)
             }
+            static var panel: String { L10n.tr("settings.general.panel") }
+            static var closeOnFocusLoss: String { L10n.tr("settings.general.closeOnFocusLoss") }
+            static var showCloseButton: String { L10n.tr("settings.general.showCloseButton") }
         }
 
         enum Shortcuts {

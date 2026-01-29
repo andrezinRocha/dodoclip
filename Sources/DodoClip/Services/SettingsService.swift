@@ -127,6 +127,22 @@ final class SettingsService: ObservableObject {
         }
     }
 
+    var closeOnFocusLoss: Bool {
+        get { settings.closeOnFocusLoss ?? false }  // Default to false
+        set {
+            settings.closeOnFocusLoss = newValue
+            save()
+        }
+    }
+
+    var showCloseButton: Bool {
+        get { settings.showCloseButton ?? true }  // Default to true
+        set {
+            settings.showCloseButton = newValue
+            save()
+        }
+    }
+
     var ignoredAppBundleIDs: [String] {
         get { settings.ignoredAppBundleIDs }
         set {

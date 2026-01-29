@@ -56,6 +56,10 @@ final class AppSettings {
     // Sound
     var soundEnabled: Bool
 
+    // Panel behavior
+    var closeOnFocusLoss: Bool?
+    var showCloseButton: Bool?
+
     // Pause state
     var isPaused: Bool
     var pauseUntil: Date?
@@ -74,6 +78,8 @@ final class AppSettings {
         self.pasteStackHotkey = "shift+cmd+c"
         self.pasteAsPlainTextByDefault = false
         self.soundEnabled = false
+        self.closeOnFocusLoss = false
+        self.showCloseButton = true
         self.isPaused = false
         self.pauseUntil = nil
     }

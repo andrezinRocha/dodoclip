@@ -88,6 +88,17 @@ struct GeneralSettingsTab: View {
                     Text(L10n.Settings.General.items(5000)).tag(5000)
                 }
             }
+
+            Section(L10n.Settings.General.panel) {
+                Toggle(L10n.Settings.General.closeOnFocusLoss, isOn: Binding(
+                    get: { settingsService.closeOnFocusLoss },
+                    set: { settingsService.closeOnFocusLoss = $0 }
+                ))
+                Toggle(L10n.Settings.General.showCloseButton, isOn: Binding(
+                    get: { settingsService.showCloseButton },
+                    set: { settingsService.showCloseButton = $0 }
+                ))
+            }
         }
         .formStyle(.grouped)
         .padding()

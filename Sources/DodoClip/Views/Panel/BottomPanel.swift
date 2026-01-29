@@ -158,8 +158,10 @@ final class BottomPanel: NSPanel {
 
     override func resignKey() {
         super.resignKey()
-        // Optionally hide when losing focus
-        // hide()
+        // Hide when losing focus if setting is enabled
+        if SettingsService.shared.closeOnFocusLoss {
+            hide()
+        }
     }
 }
 
