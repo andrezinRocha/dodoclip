@@ -35,14 +35,14 @@ DodoClip, SwiftUI ve SwiftData ile geliştirilmiş hafif, yerel bir pano yöneti
 ### Homebrew (önerilen)
 
 ```bash
+brew tap bluewave-labs/tap
 brew install --cask dodoclip
 ```
 
-Veya tap kullanarak:
+Veya tap eklemeden doğrudan yükleyin:
 
 ```bash
-brew tap bluewave-labs/tap
-brew install dodoclip
+brew install --cask bluewave-labs/tap/dodoclip
 ```
 
 ### Doğrudan indirme

@@ -35,14 +35,14 @@ DodoClip es un gestor de portapapeles nativo y ligero, construido con SwiftUI y 
 ### Homebrew (recomendado)
 
 ```bash
+brew tap bluewave-labs/tap
 brew install --cask dodoclip
 ```
 
-O usando tap:
+O instalar directamente sin tap:
 
 ```bash
-brew tap bluewave-labs/tap
-brew install dodoclip
+brew install --cask bluewave-labs/tap/dodoclip
 ```
 
 ### Descarga directa

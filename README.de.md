@@ -35,14 +35,14 @@ DodoClip ist ein leichtgewichtiger, nativer Zwischenablage-Manager, der mit Swif
 ### Homebrew (empfohlen)
 
 ```bash
+brew tap bluewave-labs/tap
 brew install --cask dodoclip
 ```
 
-Oder mit Tap:
+Oder direkt ohne Tap installieren:
 
 ```bash
-brew tap bluewave-labs/tap
-brew install dodoclip
+brew install --cask bluewave-labs/tap/dodoclip
 ```
 
 ### Direkter Download
