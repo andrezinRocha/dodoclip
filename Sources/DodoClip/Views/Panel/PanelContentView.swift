@@ -275,13 +275,13 @@ struct PanelContentView: View {
 
             if selectedItemIDs.count > 1 {
                 Text("\(selectedItemIDs.count) selected")
-                    .font(Theme.Typography.cardMeta)
+                    .font(Theme.Typography.keyboardHintLabel)
                     .foregroundColor(Theme.Colors.accent)
             }
 
             Text("\(allItems.count) clips")
-                .font(Theme.Typography.cardMeta)
-                .foregroundColor(Theme.Colors.textSecondary.opacity(0.6))
+                .font(Theme.Typography.keyboardHintLabel)
+                .foregroundColor(Theme.Colors.textSecondary.opacity(0.7))
         }
         .padding(.horizontal, Theme.Dimensions.panelPadding)
         .padding(.vertical, 8)
@@ -292,15 +292,15 @@ struct PanelContentView: View {
         HStack(spacing: 4) {
             Text(shortcut)
                 .font(Theme.Typography.keyboardShortcut)
-                .foregroundColor(Theme.Colors.textSecondary.opacity(0.8))
-                .padding(.horizontal, 4)
-                .padding(.vertical, 2)
+                .foregroundColor(Theme.Colors.textSecondary.opacity(0.9))
+                .padding(.horizontal, 5)
+                .padding(.vertical, 3)
                 .background(Theme.Colors.filterChipBackground.opacity(0.5))
-                .clipShape(RoundedRectangle(cornerRadius: 3))
+                .clipShape(RoundedRectangle(cornerRadius: 4))
 
             Text(label)
-                .font(Theme.Typography.cardMeta)
-                .foregroundColor(Theme.Colors.textSecondary.opacity(0.6))
+                .font(Theme.Typography.keyboardHintLabel)
+                .foregroundColor(Theme.Colors.textSecondary.opacity(0.7))
         }
     }
 

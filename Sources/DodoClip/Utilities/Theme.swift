@@ -90,7 +90,8 @@ enum Theme {
         static let searchInput = Font.system(size: 14)
         static let filterChip = Font.system(size: 12, weight: .medium)
         static let sectionHeader = Font.system(size: 12, weight: .semibold)
-        static let keyboardShortcut = Font.system(size: 11, weight: .medium, design: .monospaced)
+        static let keyboardShortcut = Font.system(size: 12, weight: .medium, design: .monospaced)
+        static let keyboardHintLabel = Font.system(size: 12)
     }
 
     // MARK: - Animation
