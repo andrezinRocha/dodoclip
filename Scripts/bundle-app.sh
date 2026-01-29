@@ -66,9 +66,9 @@ cat > "$CONTENTS_DIR/Info.plist" << 'EOF'
     <key>CFBundlePackageType</key>
     <string>APPL</string>
     <key>CFBundleShortVersionString</key>
-    <string>1.2.1</string>
+    <string>1.2.2</string>
     <key>CFBundleVersion</key>
-    <string>5</string>
+    <string>6</string>
     <key>LSMinimumSystemVersion</key>
     <string>14.0</string>
     <key>LSUIElement</key>
@@ -81,9 +81,9 @@ cat > "$CONTENTS_DIR/Info.plist" << 'EOF'
 </plist>
 EOF
 
-# Copy resources bundle if exists
+# Copy resources bundle if exists - place it at app root level where Bundle.module expects it
 if [ -d "$BUILD_DIR/DodoClip_DodoClip.bundle" ]; then
-    cp -r "$BUILD_DIR/DodoClip_DodoClip.bundle" "$RESOURCES_DIR/"
+    cp -r "$BUILD_DIR/DodoClip_DodoClip.bundle" "$APP_DIR/"
 fi
 
 echo "Done! App bundle created at: $APP_DIR"
