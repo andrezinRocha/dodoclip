@@ -90,6 +90,38 @@ xattr -cr /Applications/DodoClip.app
    swift run DodoClip
    ```
 
+## FAQ
+
+### "DodoClip is damaged and can't be opened"
+
+This message appears because the app isn't signed with an Apple Developer certificate. It's not actually damaged. To fix this, open Terminal and run:
+
+```bash
+xattr -cr /Applications/DodoClip.app
+```
+
+Then open DodoClip again.
+
+### I double-clicked the app but nothing happened
+
+DodoClip is a **menu bar app** - it runs in the background and appears as an icon in your menu bar (top-right corner of your screen). Press **⇧⌘V** (Shift+Command+V) to open the clipboard panel.
+
+### How do I quit DodoClip?
+
+Click the DodoClip icon in the menu bar and select "Quit", or press **⌘Q** when the panel is open.
+
+### Does DodoClip store my clipboard data securely?
+
+Your clipboard history is stored locally on your Mac using SwiftData. Nothing is sent to external servers. You can also enable privacy controls to ignore password managers and specific apps.
+
+### Can I search for text inside images?
+
+Yes! DodoClip has OCR (Optical Character Recognition) support. When you copy an image, it automatically extracts any text from it. You can then search for that text in the clipboard panel.
+
+### What's the Paste Stack feature?
+
+Paste Stack (⇧⌘C) lets you queue multiple items and paste them one by one in sequence. Great for filling out forms or moving multiple pieces of data.
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
