@@ -37,17 +37,25 @@ DodoClip, SwiftUI ve SwiftData ile geliştirilmiş hafif, yerel bir pano yöneti
 ```bash
 brew tap bluewave-labs/tap
 brew install --cask dodoclip
+xattr -cr /Applications/DodoClip.app
 ```
 
 Veya tap eklemeden doğrudan yükleyin:
 
 ```bash
 brew install --cask bluewave-labs/tap/dodoclip
+xattr -cr /Applications/DodoClip.app
 ```
 
 ### Doğrudan indirme
 
 [Releases](https://github.com/bluewave-labs/dodoclip/releases) sayfasından en son `.dmg` dosyasını indirin, açın ve DodoClip'i Uygulamalar klasörünüze sürükleyin.
+
+Kurulumdan sonra uygulamayı açmak için bu komutu çalıştırın:
+
+```bash
+xattr -cr /Applications/DodoClip.app
+```
 
 ## Kaynak Koddan Derleme
 

@@ -45,17 +45,25 @@ DodoClip is a lightweight, native clipboard manager built with SwiftUI and Swift
 ```bash
 brew tap bluewave-labs/tap
 brew install --cask dodoclip
+xattr -cr /Applications/DodoClip.app
 ```
 
 Or install directly without tapping:
 
 ```bash
 brew install --cask bluewave-labs/tap/dodoclip
+xattr -cr /Applications/DodoClip.app
 ```
 
 ### Direct download
 
 Download the latest `.dmg` from the [Releases](https://github.com/bluewave-labs/dodoclip/releases) page, open it, and drag DodoClip to your Applications folder.
+
+After installing, run this command to allow the app to open:
+
+```bash
+xattr -cr /Applications/DodoClip.app
+```
 
 ## Building from Source
 

@@ -37,17 +37,25 @@ DodoClip est un gestionnaire de presse-papiers natif et léger, construit avec S
 ```bash
 brew tap bluewave-labs/tap
 brew install --cask dodoclip
+xattr -cr /Applications/DodoClip.app
 ```
 
 Ou installer directement sans tap :
 
 ```bash
 brew install --cask bluewave-labs/tap/dodoclip
+xattr -cr /Applications/DodoClip.app
 ```
 
 ### Téléchargement direct
 
 Téléchargez le dernier `.dmg` depuis la page [Releases](https://github.com/bluewave-labs/dodoclip/releases), ouvrez-le et glissez DodoClip dans votre dossier Applications.
+
+Après l'installation, exécutez cette commande pour autoriser l'ouverture de l'app :
+
+```bash
+xattr -cr /Applications/DodoClip.app
+```
 
 ## Compilation depuis les sources
 

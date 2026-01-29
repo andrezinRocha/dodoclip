@@ -37,17 +37,25 @@ DodoClip ist ein leichtgewichtiger, nativer Zwischenablage-Manager, der mit Swif
 ```bash
 brew tap bluewave-labs/tap
 brew install --cask dodoclip
+xattr -cr /Applications/DodoClip.app
 ```
 
 Oder direkt ohne Tap installieren:
 
 ```bash
 brew install --cask bluewave-labs/tap/dodoclip
+xattr -cr /Applications/DodoClip.app
 ```
 
 ### Direkter Download
 
 Lade die neueste `.dmg` von der [Releases](https://github.com/bluewave-labs/dodoclip/releases)-Seite herunter, öffne sie und ziehe DodoClip in deinen Programme-Ordner.
+
+Nach der Installation führe diesen Befehl aus, um die App zu öffnen:
+
+```bash
+xattr -cr /Applications/DodoClip.app
+```
 
 ## Aus dem Quellcode bauen
 
